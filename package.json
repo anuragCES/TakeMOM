@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.7.0"
+    "babel-tape-runner": "^2.0.1",
+    "react-scripts": "0.7.0",
+    "tape": "^4.6.2"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-bootstrap": "^0.30.5",
+    "react-dom": "^15.3.2",
+    "react-router": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "babel-tape-runner test/**/*.js",
     "eject": "react-scripts eject"
   }
 }

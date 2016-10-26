@@ -22,3 +22,28 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/*My Stylings*/
+
+.card-flexbox {
+  display: flex;
+  background-color: aliceblue;
+  border: 1px solid slategrey;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.login-box {
+ display: flex;
+ flex-direction: column;
+}
+
+.login-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkcyan;
+  padding: 15px;
+  height: 500px;
+}
